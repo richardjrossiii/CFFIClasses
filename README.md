@@ -15,7 +15,7 @@ The goal of this project was to create a simple API for defining C++-like classe
  - Currently can only have 10 arguments passed to a method
  - Does not support raw `struct`s in argument lists (or return types), only pointers
  - Methods must cast `me` to the proper type in any method other than the constructor or destructor
- - Relys upon many features of GNU C (statement expressions, `typeof`, etc.)
+ - Relies upon many features of GNU C (statement expressions, `typeof`, etc.)
  - Probably not very portable (only tested on 64 bit Mac OSX)
  - Only one class per implementation file.
 
